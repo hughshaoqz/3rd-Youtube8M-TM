@@ -313,7 +313,7 @@ python src/eval.py --eval_data_pattern='gs://youtube8m-ml-us-east1/3/frame/valid
 ```
 4.a Inference for OOF
 ```sh
-# Since we use TTA, it is required to inference couple times with different shifts. For example, if model is TTA[-2,1], you need to inference 4 times, one for --shift=-2, one for --shift=-1, one for --shift=0, one for --shift=1 
+# Since we use TTA, it is required to inference couple times with different shifts. For example, if model is TTA[-2,1], you need to inference 4 times, one for --shift=-2, one for --shift=-1, one for --shift=0, one for --shift=1 
  
 python src/inference.py --input_data_pattern=${valid_data_pattern} \
 --google_cloud=True \
