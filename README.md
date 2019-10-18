@@ -2,7 +2,7 @@
 
 This repo contains the code of the 9th position at [The 3rd YouTube-8M Video Understanding Challenge](https://www.kaggle.com/c/youtube8m-2019/overview) on Kaggle.
 
-Our best final submission mode is a weighted ensemble of 9 models, which reaches 0.7871 on the private leaderboard. The weights are tuned by Baysian Optimization. For the code of Baysian Optimization and 
+Our best final submission mode is a weighted ensemble of 9 models, which reaches MAP 0.7871 on the private leaderboard. The weights are tuned by Baysian Optimization. For the code of Baysian Optimization and 
 ensemble method, please refer to Ensemble.ipynb file.
 The details of each model can  be found below:
 
