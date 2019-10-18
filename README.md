@@ -28,7 +28,7 @@ Hardware Requirement: The model has been run on a single NVIDIA RTX 2080Ti 11 GB
 ## Train a Single Model
 
 The following are the examples of training a single model locally or on the Google Cloud AI Platform. The model we show below is BERTMean(L2H12) TTA[-2, 1], which
-got MAP 0.7725 on the final private leaderboard. For the training details of other models, please refer to shell_script folder.
+got MAP 0.7725 on the final private leaderboard. For the training details of other models, please refer to shell_script directory.
 
 There mainly 4 steps for the whole process to get final prediction of a single model: Pre-training, Fine-tuning, Evaluation, and Inference.
 
