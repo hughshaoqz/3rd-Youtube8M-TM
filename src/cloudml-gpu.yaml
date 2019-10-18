@@ -1,0 +1,4 @@
+trainingInput:
+  scaleTier: CUSTOM
+  masterType: standard_gpu #standard_p100 #large_model_v100 standard_gpu complex_model_l_gpu
+  runtimeVersion: "1.13"
